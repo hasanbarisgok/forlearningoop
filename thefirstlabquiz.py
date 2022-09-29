@@ -12,7 +12,7 @@ class urunler:
         self.urun_otv_orani = urun_otv_orani                                                                    # urun_adi = product_tax_rate // kdv = a tax in Turkey
         self.urun_kdv_orani = urun_kdv_orani                                                                    # sfiyati = saleprice
                                                                                                                 # kar_orani = profit rate
-        #the method is created for calculating.                                                                 # elma = bread, patates = patato, un = fame, yumurta = egg
+        #the method is created for calculating system                                                           # elma = bread, patates = patato, un = fame, yumurta = egg
     def urun_satis_fiyati(self,kar_orani):                                                                      # toplam = sum / total -> the variable created for calculate total basket.
         sfiyati = self.urun_alis_fiyati
         sfiyati = sfiyati + (sfiyati * kar_orani)
