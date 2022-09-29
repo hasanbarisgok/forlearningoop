@@ -14,9 +14,9 @@ class urunler:
                                                                                                                 # kar_orani = profit rate
         #the method is created for calculating system                                                           # elma = bread, patates = patato, un = fame, yumurta = egg
     def urun_satis_fiyati(self,kar_orani):                                                                      # toplam = sum / total -> the variable created for calculate total basket.
-        sfiyati = self.urun_alis_fiyati
-        sfiyati = sfiyati + (sfiyati * kar_orani)
-        sfiyati = sfiyati + (sfiyati * self.urun_otv_orani)
+        sfiyati = self.urun_alis_fiyati                                                                         # urunler = products
+        sfiyati = sfiyati + (sfiyati * kar_orani)                                                               # sepet_fiyati = basket_value                                            
+        sfiyati = sfiyati + (sfiyati * self.urun_otv_orani)                                         
         sfiyati = sfiyati + (sfiyati * self.urun_kdv_orani)
         return sfiyati 
 
