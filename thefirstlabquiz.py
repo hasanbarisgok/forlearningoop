@@ -5,7 +5,7 @@ class urunler:
     urun_otv_orani:float = 0
     urun_kdv_orani:float = 0
 
-    #we're creating a constructor for class of urunler in this step:                                            #these are words in English. I'm writing for wanting everyone understand the code.
+    #we're creating a constructor for class of urunler in this step:                                            # these are words in English. I'm writing for wanting everyone understand the code.
     def __init__(self,urun_adi, urun_alis_fiyati, urun_otv_orani, urun_kdv_orani) :                             # urun_adi = product_name
         self.urun_adi = urun_adi                                                                                # urun_alis_fiyati = product_purchase_price
         self.urun_alis_fiyati = urun_alis_fiyati                                                                # urun_otv_orani = product_tax_rate // otv = a tax in Turkey
