@@ -10,7 +10,7 @@ class Students():
         self.student_grade = grade #Student Grade
         self.student_no = no #Student No
 
-    def outputforInfo(self): #This is a method. (A function of the class. Actually method, and function words are synonyms in Software Language.)
+    def outputforInfo(self): #This is a method. (A function of the class. Actually method, and function words are synonyms in Software.)
         '''
         We'll have an output as this method.
         '''
