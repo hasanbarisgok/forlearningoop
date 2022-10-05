@@ -1,7 +1,7 @@
 class Students():
     student_name: str = ''      #Self variables. We're created these variables top of the class. Because if we're doing do this as this, 
-    student_surname: str = ''   #we can change the program easiliy and we can create self variables in constructor with miniminal risk in the future.
-    student_grade: str = ''  
+    student_surname: str = ''   #we can change the program easiliy and we can create attributes in constructor with miniminal risk in the future.
+    student_grade: str = ''    
     student_no: int = 0
 
     def __init__(self, name, surname, grade, no) -> None: #This is a constructor (creator constructor of the Students class)
