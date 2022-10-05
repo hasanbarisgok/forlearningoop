@@ -1,0 +1,22 @@
+class Students():
+    student_name: str = ''      #Self variables. We're created these variables top of the class. Because if we're doing do this as this, 
+    student_surname: str = ''   #we can change the program easiliy and we can create self variables in constructor with miniminal risk in the future.
+    student_grade: str = ''  
+    student_no: int = 0
+
+    def __init__(self, name, surname, grade, no) -> None: #This is a constructor (creator constructor of the Students class)
+        self.student_name = name #Student Name 
+        self.student_surname = surname #Student Surname
+        self.student_grade = grade #Student Grade
+        self.student_no = no #Student No
+
+    def outputforInfo(self): #This is a method. (A function of the class. Actually method, and function words are synonyms in Software Language.)
+        '''
+        We'll have an output as this method.
+        '''
+        print(f"Student Name: {self.student_name}, Student Surname: {self.student_surname},\nStudent Grade: {self.student_grade}, Student No: {self.student_no}")
+
+
+anewUser = Students('XYZ','ZYX','AA-100', 20220212020)
+anewUser.outputforInfo()
+
