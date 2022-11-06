@@ -19,7 +19,7 @@ class CheckMyPassword(object):
         """The Class Constructor
 
         Args:
-            amy_password (_str_): _Password which you wants to check to see how strengthly your password._
+            amy_password (_str_): _Password which you want to check to see how strengthly your password._
         """
         self.my_password = amy_password
         self.len_password : int = len(amy_password)
