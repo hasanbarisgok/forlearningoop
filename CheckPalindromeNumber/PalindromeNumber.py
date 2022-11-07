@@ -6,7 +6,7 @@ class Palindrome(object):
         Args:
             num (_int or float_): _Any number to check is it palindrome or not._
         """
-        self.const_num = num #The original num. We're saving the value in this variable.
+        self.const_num = num #The original num. We're saving the num's value in this variable.
         self.num = num #Num (int or float), Instance Varible
         self.numsinarray = [] #The list which includes $num digits as seperatly. : Example: num = 100, numsinarray = [1,0,0]
         self.shredNum() 
