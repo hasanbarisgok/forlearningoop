@@ -28,7 +28,7 @@ class Palindrome(object):
     
     def checkPalindrome(self):
         """The function compares numsinarray & newArr. 
-        Program returns True or False as using the compare result (same list or not).
+        Program returns True or False as using the compare's result (same list or not).
 
         Returns:
             True meaning : The num is Palindrome.
