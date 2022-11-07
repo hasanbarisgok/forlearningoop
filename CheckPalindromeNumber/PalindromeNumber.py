@@ -50,7 +50,7 @@ class Palindrome(object):
 
     @staticmethod
     def reverseArray(_numsinarr):
-        """The method reverses numsinarray list.
+        """The method reverses list of numsinarray.
     
         Returns:
             _numsinarr: The new list of reversed numsinarray list. 
