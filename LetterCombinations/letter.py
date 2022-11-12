@@ -13,7 +13,7 @@ class LetterCombinations():
 
     def __init__(self,firstTouch:int,secondTouch:int) -> None:
         """The keys which will touch from person.
-        Given a string containing digits from 2-9 inclusive. Return the answer in any order.
+        Given a string containing digits from 2-9 inclusive. 
 
         Args:
             firstTouch (str): _a number between of 2 - 9_
