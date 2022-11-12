@@ -11,7 +11,7 @@ class LetterCombinations():
              '0': [" "]}
     
 
-    def __init__(self,firstTouch:int,secondTouch:int) -> None:
+    def __init__(self,firstTouch:int,secondTouch:int):
         """The keys which will touch from person.
         Given a string containing digits from 2-9 inclusive. 
 
